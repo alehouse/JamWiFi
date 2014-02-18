@@ -1,0 +1,758 @@
+TJamWiFi
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/Info.plist /Volumes/SHARED/trough/JamWiFi/JamWiFi/JamWiFi-Info.plist
+cProcessPCH /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-dvsksepanryisuaqhhtfcmmemtpv/JamWiFi-Prefix.pch.pch JamWiFi/JamWiFi-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-gfciafvaknwfwvevqrmxxopqhhzo/JamWiFi-Prefix.pch.pch JamWiFi/JamWiFi-Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANAppDelegate.o /Volumes/SHARED/trough/JamWiFi/JamWiFi/ANAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANBeaconFrame.o /Volumes/SHARED/trough/JamWiFi/Wireless/Beacons/ANBeaconFrame.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/main.o /Volumes/SHARED/trough/JamWiFi/JamWiFi/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANBeaconPart.o /Volumes/SHARED/trough/JamWiFi/Wireless/Beacons/ANBeaconPart.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANWiFiSniffer.o /Volumes/SHARED/trough/JamWiFi/Wireless/ANWiFiSniffer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANListView.o /Volumes/SHARED/trough/JamWiFi/JamWiFi/ANListView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANTrafficGatherer.o /Volumes/SHARED/trough/JamWiFi/JamWiFi/ANTrafficGatherer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANClient.o /Volumes/SHARED/trough/JamWiFi/Wireless/ANClient.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/AN80211Packet.o /Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/AN80211Packet.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANInterface.o /Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/ANInterface.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/crc.o /Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/crc.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANClientKiller.o /Volumes/SHARED/trough/JamWiFi/JamWiFi/ANClientKiller.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/MACParser.o /Volumes/SHARED/trough/JamWiFi/Wireless/MACParser.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/CarbonAppProcess.o /Volumes/SHARED/trough/JamWiFi/JamWiFi/CarbonAppProcess.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/MacOS/JamWiFi normal x86_64
+cGenerateDSYMFile /Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app.dSYM /Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/MacOS/JamWiFi
+cCpResource JamWiFi/en.lproj/Credits.rtf build/Release/JamWiFi.app/Contents/Resources/en.lproj/Credits.rtf
+cCompileXIB /Volumes/SHARED/trough/JamWiFi/JamWiFi/en.lproj/MainMenu.xib
+cCpResource JamWiFi/radio.icns build/Release/JamWiFi.app/Contents/Resources/radio.icns
+cCopyStringsFile /Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/Resources/en.lproj/InfoPlist.strings JamWiFi/en.lproj/InfoPlist.strings
+cTouch /Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c0000000052822B6200000000000000AA
+t1384262498
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c00000000526C8246000000000000044C
+t1382842950
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000526C824600000000000001DB
+t1382842950
+s475
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000526C8247000000000000253C
+t1382842951
+s9532
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreWLAN.framework/CoreWLAN
+c00000000526C8247000000000001E898
+t1382842951
+s125080
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Security.framework/Security
+c00000000526C82490000000000076260
+t1382842953
+s483936
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ServiceManagement.framework/ServiceManagement
+c00000000526C8249000000000000C968
+t1382842953
+s51560
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libpcap.dylib
+c00000000526C824B000000000000C280
+t1382842955
+s49792
+
+N/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANAppDelegate.m
+c000000005302AC7C00000000000007E3
+t1392684156
+s2019
+
+N/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANClientKiller.m
+c000000005302AC7C000000000000293A
+t1392684156
+s10554
+
+N/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANListView.m
+c000000005302AC7C0000000000001F18
+t1392684156
+s7960
+
+N/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANTrafficGatherer.m
+c000000005302AC7C00000000000020FA
+t1392684156
+s8442
+
+N/Volumes/SHARED/trough/JamWiFi/JamWiFi/CarbonAppProcess.m
+c000000005302AC7C0000000000000724
+t1392684156
+s1828
+
+N/Volumes/SHARED/trough/JamWiFi/JamWiFi/JamWiFi-Info.plist
+c000000005302AC7C000000000000043A
+t1392684156
+s1082
+
+N/Volumes/SHARED/trough/JamWiFi/JamWiFi/JamWiFi-Prefix.pch
+c000000005302AC7C0000000000000091
+t1392684156
+s145
+
+N/Volumes/SHARED/trough/JamWiFi/JamWiFi/en.lproj/Credits.rtf
+c000000005302AC7C00000000000001B4
+t1392684156
+s436
+
+N/Volumes/SHARED/trough/JamWiFi/JamWiFi/en.lproj/InfoPlist.strings
+c000000005302AC7C000000000000002D
+t1392684156
+s45
+
+N/Volumes/SHARED/trough/JamWiFi/JamWiFi/en.lproj/MainMenu.xib
+c000000005302AC7C0000000000022B36
+t1392684156
+s142134
+
+N/Volumes/SHARED/trough/JamWiFi/JamWiFi/main.m
+c000000005302AC7C00000000000007D0
+t1392684156
+s2000
+
+N/Volumes/SHARED/trough/JamWiFi/JamWiFi/radio.icns
+c000000005302AC7C0000000000075EED
+t1392684156
+s483053
+
+N/Volumes/SHARED/trough/JamWiFi/Wireless/ANClient.m
+c000000005302AC7C00000000000003DE
+t1392684156
+s990
+
+N/Volumes/SHARED/trough/JamWiFi/Wireless/ANWiFiSniffer.m
+c000000005302AC7C00000000000012A8
+t1392684156
+s4776
+
+N/Volumes/SHARED/trough/JamWiFi/Wireless/Beacons/ANBeaconFrame.m
+c000000005302AC7C000000000000067D
+t1392684156
+s1661
+
+N/Volumes/SHARED/trough/JamWiFi/Wireless/Beacons/ANBeaconPart.m
+c000000005302AC7C000000000000019F
+t1392684156
+s415
+
+N/Volumes/SHARED/trough/JamWiFi/Wireless/MACParser.m
+c000000005302AC7C00000000000003A6
+t1392684156
+s934
+
+N/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/AN80211Packet.m
+c000000005302AC7C00000000000004A0
+t1392684156
+s1184
+
+N/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/ANInterface.m
+c000000005302AC7C00000000000009D7
+t1392684156
+s2519
+
+N/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/crc.c
+c000000005302AC7C00000000000023AA
+t1392684156
+s9130
+
+N/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/AN80211Packet.o
+t1392684198
+s14468
+
+N/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANAppDelegate.o
+t1392684198
+s54700
+
+N/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANBeaconFrame.o
+t1392684198
+s18296
+
+N/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANBeaconPart.o
+t1392684198
+s9608
+
+N/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANClient.o
+t1392684198
+s16024
+
+N/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANClientKiller.o
+t1392684198
+s104796
+
+N/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANInterface.o
+t1392684198
+s28156
+
+N/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANListView.o
+t1392684198
+s93176
+
+N/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANTrafficGatherer.o
+t1392684198
+s95364
+
+N/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANWiFiSniffer.o
+t1392684198
+s36980
+
+N/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/CarbonAppProcess.o
+t1392684198
+s15996
+
+N/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/JamWiFi.LinkFileList
+c000000005302ACA400000000000005F8
+t1392684196
+s1528
+
+N/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/MACParser.o
+t1392684198
+s7124
+
+N/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/crc.o
+t1392684198
+s4600
+
+N/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/main.o
+t1392684198
+s8360
+
+N/Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app
+t1392684196
+s32768
+
+N/Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app.dSYM
+t2
+s0
+
+N/Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/Info.plist
+t1392684196
+s1468
+
+N/Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/MacOS/JamWiFi
+t1392684198
+s130940
+
+N/Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/PkgInfo
+t1392684196
+s8
+
+N/Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/Resources/en.lproj/Credits.rtf
+t1392684198
+s436
+
+N/Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/Resources/en.lproj/InfoPlist.strings
+t1392684198
+s92
+
+N/Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/Resources/en.lproj/MainMenu.nib
+t1392684198
+s26750
+
+N/Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/Resources/radio.icns
+t1392684198
+s483053
+
+N/var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-dvsksepanryisuaqhhtfcmmemtpv/JamWiFi-Prefix.pch.pch
+t1392684198
+s13692636
+
+N/var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-gfciafvaknwfwvevqrmxxopqhhzo/JamWiFi-Prefix.pch.pch
+t1392684197
+s110720
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf94c7e25e4b2b841^46238725e4b2b841^---0#1#1#--18"Check dependencies36"C61BCCDE-54F4-4267-96F2-14C093709890-
+
+CCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/AN80211Packet.o /Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/AN80211Packet.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414376998.411566
+e414376998.443367
+r1
+xCompileC
+xbuild/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/AN80211Packet.o
+x/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/AN80211Packet.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/AN80211Packet.m
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/AN80211Packet.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/packets.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/crc.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/AN80211Packet.m207"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/AN80211Packet.o [1mWireless/Tapping/AN80211Packet.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler726c6926e4b2b841^b4937126e4b2b841^---0#0#1#-19%DVTDocumentLocation2@79"file://localhost/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/AN80211Packet.m0000000000000000^2891"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/AN80211Packet.o [1mWireless/Tapping/AN80211Packet.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/JamWiFi    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-generated-files.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-own-target-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-all-target-headers.hmap -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-project-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources/x86_64 -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources -F/Volumes/SHARED/trough/JamWiFi/build/Release -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-dvsksepanryisuaqhhtfcmmemtpv/JamWiFi-Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/AN80211Packet.d --serialize-diagnostics /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/AN80211Packet.dia -c /Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/AN80211Packet.m -o /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/AN80211Packet.o36"F660D508-EE1A-4D2B-803F-184070FC198B-
+b1D5BA155-C364-4B6D-9259-3EEEC7C68E36
+
+CCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANAppDelegate.o /Volumes/SHARED/trough/JamWiFi/JamWiFi/ANAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414376998.270717
+e414376998.523069
+r1
+xCompileC
+xbuild/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANAppDelegate.o
+x/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANAppDelegate.m
+d/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANAppDelegate.h
+d/Volumes/SHARED/trough/JamWiFi/JamWiFi/CarbonAppProcess.h
+d/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANListView.h
+d/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANTrafficGatherer.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/ANWiFiSniffer.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/ANInterface.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/AN80211Packet.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/packets.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/crc.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/ANClient.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/MACParser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Volumes/SHARED/trough/JamWiFi/JamWiFi/ANAppDelegate.m198"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANAppDelegate.o [1mJamWiFi/ANAppDelegate.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilere15e4526e4b2b841^c9e78526e4b2b841^---0#0#1#-19%DVTDocumentLocation2@70"file://localhost/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANAppDelegate.m0000000000000000^2873"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANAppDelegate.o [1mJamWiFi/ANAppDelegate.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/JamWiFi    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-generated-files.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-own-target-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-all-target-headers.hmap -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-project-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources/x86_64 -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources -F/Volumes/SHARED/trough/JamWiFi/build/Release -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-dvsksepanryisuaqhhtfcmmemtpv/JamWiFi-Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANAppDelegate.d --serialize-diagnostics /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANAppDelegate.dia -c /Volumes/SHARED/trough/JamWiFi/JamWiFi/ANAppDelegate.m -o /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANAppDelegate.o36"B43B9E57-7FD4-45B8-92C2-BCAE68A84FD4-
+b1D5BA155-C364-4B6D-9259-3EEEC7C68E36
+
+CCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANBeaconFrame.o /Volumes/SHARED/trough/JamWiFi/Wireless/Beacons/ANBeaconFrame.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414376998.270722
+e414376998.319067
+r1
+xCompileC
+xbuild/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANBeaconFrame.o
+x/Volumes/SHARED/trough/JamWiFi/Wireless/Beacons/ANBeaconFrame.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Beacons/ANBeaconFrame.m
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Beacons/ANBeaconFrame.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/AN80211Packet.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/packets.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/crc.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Beacons/ANBeaconPart.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Volumes/SHARED/trough/JamWiFi/Wireless/Beacons/ANBeaconFrame.m207"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANBeaconFrame.o [1mWireless/Beacons/ANBeaconFrame.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerbb5f4526e4b2b841^1dae5126e4b2b841^---0#0#1#-19%DVTDocumentLocation2@79"file://localhost/Volumes/SHARED/trough/JamWiFi/Wireless/Beacons/ANBeaconFrame.m0000000000000000^2891"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANBeaconFrame.o [1mWireless/Beacons/ANBeaconFrame.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/JamWiFi    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-generated-files.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-own-target-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-all-target-headers.hmap -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-project-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources/x86_64 -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources -F/Volumes/SHARED/trough/JamWiFi/build/Release -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-dvsksepanryisuaqhhtfcmmemtpv/JamWiFi-Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANBeaconFrame.d --serialize-diagnostics /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANBeaconFrame.dia -c /Volumes/SHARED/trough/JamWiFi/Wireless/Beacons/ANBeaconFrame.m -o /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANBeaconFrame.o36"0AAB3B66-CF29-4FD8-A541-6999051E4FAA-
+b1D5BA155-C364-4B6D-9259-3EEEC7C68E36
+
+CCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANBeaconPart.o /Volumes/SHARED/trough/JamWiFi/Wireless/Beacons/ANBeaconPart.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414376998.270730
+e414376998.305770
+r1
+xCompileC
+xbuild/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANBeaconPart.o
+x/Volumes/SHARED/trough/JamWiFi/Wireless/Beacons/ANBeaconPart.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Beacons/ANBeaconPart.m
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Beacons/ANBeaconPart.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Volumes/SHARED/trough/JamWiFi/Wireless/Beacons/ANBeaconPart.m205"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANBeaconPart.o [1mWireless/Beacons/ANBeaconPart.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler28624526e4b2b841^f1464e26e4b2b841^---0#0#1#-19%DVTDocumentLocation2@78"file://localhost/Volumes/SHARED/trough/JamWiFi/Wireless/Beacons/ANBeaconPart.m0000000000000000^2885"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANBeaconPart.o [1mWireless/Beacons/ANBeaconPart.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/JamWiFi    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-generated-files.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-own-target-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-all-target-headers.hmap -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-project-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources/x86_64 -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources -F/Volumes/SHARED/trough/JamWiFi/build/Release -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-dvsksepanryisuaqhhtfcmmemtpv/JamWiFi-Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANBeaconPart.d --serialize-diagnostics /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANBeaconPart.dia -c /Volumes/SHARED/trough/JamWiFi/Wireless/Beacons/ANBeaconPart.m -o /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANBeaconPart.o36"076559D3-D885-42B4-92E6-04028DF7DBE0-
+b1D5BA155-C364-4B6D-9259-3EEEC7C68E36
+
+CCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANClient.o /Volumes/SHARED/trough/JamWiFi/Wireless/ANClient.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414376998.378729
+e414376998.410288
+r1
+xCompileC
+xbuild/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANClient.o
+x/Volumes/SHARED/trough/JamWiFi/Wireless/ANClient.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/JamWiFi/Wireless/ANClient.m
+d/Volumes/SHARED/trough/JamWiFi/Wireless/ANClient.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Volumes/SHARED/trough/JamWiFi/Wireless/ANClient.m189"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANClient.o [1mWireless/ANClient.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerc5046126e4b2b841^3f1f6926e4b2b841^---0#0#1#-19%DVTDocumentLocation2@66"file://localhost/Volumes/SHARED/trough/JamWiFi/Wireless/ANClient.m0000000000000000^2845"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANClient.o [1mWireless/ANClient.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/JamWiFi    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-generated-files.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-own-target-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-all-target-headers.hmap -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-project-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources/x86_64 -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources -F/Volumes/SHARED/trough/JamWiFi/build/Release -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-dvsksepanryisuaqhhtfcmmemtpv/JamWiFi-Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANClient.d --serialize-diagnostics /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANClient.dia -c /Volumes/SHARED/trough/JamWiFi/Wireless/ANClient.m -o /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANClient.o36"8E6D2E54-9CA2-4506-97BF-F69EC6320DB2-
+b1D5BA155-C364-4B6D-9259-3EEEC7C68E36
+
+CCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANClientKiller.o /Volumes/SHARED/trough/JamWiFi/JamWiFi/ANClientKiller.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414376998.524309
+e414376998.698542
+r1
+xCompileC
+xbuild/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANClientKiller.o
+x/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANClientKiller.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANClientKiller.m
+d/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANClientKiller.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/ANWiFiSniffer.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/ANInterface.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/AN80211Packet.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/packets.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/crc.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/ANClient.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/MACParser.h
+d/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANAppDelegate.h
+d/Volumes/SHARED/trough/JamWiFi/JamWiFi/CarbonAppProcess.h
+d/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANTrafficGatherer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Volumes/SHARED/trough/JamWiFi/JamWiFi/ANClientKiller.m200"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANClientKiller.o [1mJamWiFi/ANClientKiller.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler174a8626e4b2b841^e9d3b226e4b2b841^---0#0#1#-19%DVTDocumentLocation2@71"file://localhost/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANClientKiller.m0000000000000000^2879"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANClientKiller.o [1mJamWiFi/ANClientKiller.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/JamWiFi    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-generated-files.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-own-target-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-all-target-headers.hmap -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-project-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources/x86_64 -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources -F/Volumes/SHARED/trough/JamWiFi/build/Release -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-dvsksepanryisuaqhhtfcmmemtpv/JamWiFi-Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANClientKiller.d --serialize-diagnostics /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANClientKiller.dia -c /Volumes/SHARED/trough/JamWiFi/JamWiFi/ANClientKiller.m -o /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANClientKiller.o36"4B5BCC5B-1656-4AA1-9362-9DF4F9163E23-
+b1D5BA155-C364-4B6D-9259-3EEEC7C68E36
+
+CCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANInterface.o /Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/ANInterface.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414376998.444637
+e414376998.496234
+r1
+xCompileC
+xbuild/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANInterface.o
+x/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/ANInterface.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/ANInterface.m
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/ANInterface.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/AN80211Packet.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/packets.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/crc.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/ANInterface.m203"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANInterface.o [1mWireless/Tapping/ANInterface.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler4be57126e4b2b841^31097f26e4b2b841^---0#0#1#-19%DVTDocumentLocation2@77"file://localhost/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/ANInterface.m0000000000000000^2879"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANInterface.o [1mWireless/Tapping/ANInterface.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/JamWiFi    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-generated-files.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-own-target-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-all-target-headers.hmap -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-project-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources/x86_64 -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources -F/Volumes/SHARED/trough/JamWiFi/build/Release -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-dvsksepanryisuaqhhtfcmmemtpv/JamWiFi-Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANInterface.d --serialize-diagnostics /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANInterface.dia -c /Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/ANInterface.m -o /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANInterface.o36"2C7A3D66-54D7-47AD-9D99-41A855173EE9-
+b1D5BA155-C364-4B6D-9259-3EEEC7C68E36
+
+CCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANListView.o /Volumes/SHARED/trough/JamWiFi/JamWiFi/ANListView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414376998.307200
+e414376998.558286
+r1
+xCompileC
+xbuild/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANListView.o
+x/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANListView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANListView.m
+d/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANListView.h
+d/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANTrafficGatherer.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/ANWiFiSniffer.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/ANInterface.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/AN80211Packet.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/packets.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/crc.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/ANClient.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/MACParser.h
+d/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANAppDelegate.h
+d/Volumes/SHARED/trough/JamWiFi/JamWiFi/CarbonAppProcess.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Volumes/SHARED/trough/JamWiFi/JamWiFi/ANListView.m192"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANListView.o [1mJamWiFi/ANListView.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler35b34e26e4b2b841^21ea8e26e4b2b841^---0#0#1#-19%DVTDocumentLocation2@67"file://localhost/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANListView.m0000000000000000^2855"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANListView.o [1mJamWiFi/ANListView.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/JamWiFi    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-generated-files.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-own-target-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-all-target-headers.hmap -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-project-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources/x86_64 -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources -F/Volumes/SHARED/trough/JamWiFi/build/Release -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-dvsksepanryisuaqhhtfcmmemtpv/JamWiFi-Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANListView.d --serialize-diagnostics /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANListView.dia -c /Volumes/SHARED/trough/JamWiFi/JamWiFi/ANListView.m -o /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANListView.o36"2A2A8C34-BCDC-44D4-9138-6542A51A4EB3-
+b1D5BA155-C364-4B6D-9259-3EEEC7C68E36
+
+CCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANTrafficGatherer.o /Volumes/SHARED/trough/JamWiFi/JamWiFi/ANTrafficGatherer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414376998.320436
+e414376998.564987
+r1
+xCompileC
+xbuild/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANTrafficGatherer.o
+x/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANTrafficGatherer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANTrafficGatherer.m
+d/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANTrafficGatherer.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/ANWiFiSniffer.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/ANInterface.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/AN80211Packet.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/packets.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/crc.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/ANClient.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/MACParser.h
+d/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANAppDelegate.h
+d/Volumes/SHARED/trough/JamWiFi/JamWiFi/CarbonAppProcess.h
+d/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANClientKiller.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Volumes/SHARED/trough/JamWiFi/JamWiFi/ANTrafficGatherer.m206"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANTrafficGatherer.o [1mJamWiFi/ANTrafficGatherer.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler01195226e4b2b841^40a39026e4b2b841^---0#0#1#-19%DVTDocumentLocation2@74"file://localhost/Volumes/SHARED/trough/JamWiFi/JamWiFi/ANTrafficGatherer.m0000000000000000^2897"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANTrafficGatherer.o [1mJamWiFi/ANTrafficGatherer.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/JamWiFi    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-generated-files.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-own-target-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-all-target-headers.hmap -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-project-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources/x86_64 -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources -F/Volumes/SHARED/trough/JamWiFi/build/Release -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-dvsksepanryisuaqhhtfcmmemtpv/JamWiFi-Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANTrafficGatherer.d --serialize-diagnostics /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANTrafficGatherer.dia -c /Volumes/SHARED/trough/JamWiFi/JamWiFi/ANTrafficGatherer.m -o /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANTrafficGatherer.o36"7090FC33-17E3-41BB-8956-3E22BE574496-
+b1D5BA155-C364-4B6D-9259-3EEEC7C68E36
+
+CCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANWiFiSniffer.o /Volumes/SHARED/trough/JamWiFi/Wireless/ANWiFiSniffer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414376998.307058
+e414376998.377355
+r1
+xCompileC
+xbuild/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANWiFiSniffer.o
+x/Volumes/SHARED/trough/JamWiFi/Wireless/ANWiFiSniffer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/JamWiFi/Wireless/ANWiFiSniffer.m
+d/Volumes/SHARED/trough/JamWiFi/Wireless/ANWiFiSniffer.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/ANInterface.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/AN80211Packet.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/packets.h
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/crc.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Volumes/SHARED/trough/JamWiFi/Wireless/ANWiFiSniffer.m199"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANWiFiSniffer.o [1mWireless/ANWiFiSniffer.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler15ab4e26e4b2b841^469a6026e4b2b841^---0#0#1#-19%DVTDocumentLocation2@71"file://localhost/Volumes/SHARED/trough/JamWiFi/Wireless/ANWiFiSniffer.m0000000000000000^2875"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANWiFiSniffer.o [1mWireless/ANWiFiSniffer.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/JamWiFi    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-generated-files.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-own-target-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-all-target-headers.hmap -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-project-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources/x86_64 -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources -F/Volumes/SHARED/trough/JamWiFi/build/Release -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-dvsksepanryisuaqhhtfcmmemtpv/JamWiFi-Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANWiFiSniffer.d --serialize-diagnostics /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANWiFiSniffer.dia -c /Volumes/SHARED/trough/JamWiFi/Wireless/ANWiFiSniffer.m -o /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANWiFiSniffer.o36"5F189621-6015-48A4-AA52-C7A395A4F8AC-
+b1D5BA155-C364-4B6D-9259-3EEEC7C68E36
+
+CCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/CarbonAppProcess.o /Volumes/SHARED/trough/JamWiFi/JamWiFi/CarbonAppProcess.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414376998.559099
+e414376998.638427
+r1
+xCompileC
+xbuild/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/CarbonAppProcess.o
+x/Volumes/SHARED/trough/JamWiFi/JamWiFi/CarbonAppProcess.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/JamWiFi/JamWiFi/CarbonAppProcess.m
+d/Volumes/SHARED/trough/JamWiFi/JamWiFi/CarbonAppProcess.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Volumes/SHARED/trough/JamWiFi/JamWiFi/CarbonAppProcess.m204"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/CarbonAppProcess.o [1mJamWiFi/CarbonAppProcess.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler543b8f26e4b2b841^1570a326e4b2b841^---0#0#1#-19%DVTDocumentLocation2@73"file://localhost/Volumes/SHARED/trough/JamWiFi/JamWiFi/CarbonAppProcess.m0000000000000000^2891"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/CarbonAppProcess.o [1mJamWiFi/CarbonAppProcess.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/JamWiFi    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-generated-files.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-own-target-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-all-target-headers.hmap -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-project-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources/x86_64 -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources -F/Volumes/SHARED/trough/JamWiFi/build/Release -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-dvsksepanryisuaqhhtfcmmemtpv/JamWiFi-Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/CarbonAppProcess.d --serialize-diagnostics /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/CarbonAppProcess.dia -c /Volumes/SHARED/trough/JamWiFi/JamWiFi/CarbonAppProcess.m -o /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/CarbonAppProcess.o36"70184E74-3B59-4802-9316-B5B1976BA556-
+b1D5BA155-C364-4B6D-9259-3EEEC7C68E36
+
+CCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/MACParser.o /Volumes/SHARED/trough/JamWiFi/Wireless/MACParser.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414376998.527111
+e414376998.555538
+r1
+xCompileC
+xbuild/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/MACParser.o
+x/Volumes/SHARED/trough/JamWiFi/Wireless/MACParser.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/JamWiFi/Wireless/MACParser.m
+d/Volumes/SHARED/trough/JamWiFi/Wireless/MACParser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Volumes/SHARED/trough/JamWiFi/Wireless/MACParser.m191"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/MACParser.o [1mWireless/MACParser.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compileraa0c8726e4b2b841^df378e26e4b2b841^---0#0#1#-19%DVTDocumentLocation2@67"file://localhost/Volumes/SHARED/trough/JamWiFi/Wireless/MACParser.m0000000000000000^2851"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/MACParser.o [1mWireless/MACParser.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/JamWiFi    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-generated-files.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-own-target-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-all-target-headers.hmap -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-project-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources/x86_64 -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources -F/Volumes/SHARED/trough/JamWiFi/build/Release -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-dvsksepanryisuaqhhtfcmmemtpv/JamWiFi-Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/MACParser.d --serialize-diagnostics /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/MACParser.dia -c /Volumes/SHARED/trough/JamWiFi/Wireless/MACParser.m -o /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/MACParser.o36"7606A263-8FAA-465F-816F-EB401B0CB17F-
+b1D5BA155-C364-4B6D-9259-3EEEC7C68E36
+
+CCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/crc.o /Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/crc.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s414376998.497560
+e414376998.525922
+r1
+xCompileC
+xbuild/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/crc.o
+x/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/crc.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/crc.c
+d/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/crc.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/crc.c177"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/crc.o [1mWireless/Tapping/crc.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler43757f26e4b2b841^ebac8626e4b2b841^---0#0#1#-19%DVTDocumentLocation2@69"file://localhost/Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/crc.c0000000000000000^2607"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/crc.o [1mWireless/Tapping/crc.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/JamWiFi    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-generated-files.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-own-target-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-all-target-headers.hmap -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-project-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources/x86_64 -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources -F/Volumes/SHARED/trough/JamWiFi/build/Release -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-gfciafvaknwfwvevqrmxxopqhhzo/JamWiFi-Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/crc.d --serialize-diagnostics /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/crc.dia -c /Volumes/SHARED/trough/JamWiFi/Wireless/Tapping/crc.c -o /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/crc.o36"D56A02D9-7FF8-4636-80DE-57657C11168C-
+b1D5BA155-C364-4B6D-9259-3EEEC7C68E36
+
+CCompileC build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/main.o /Volumes/SHARED/trough/JamWiFi/JamWiFi/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414376998.270727
+e414376998.306562
+r1
+xCompileC
+xbuild/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/main.o
+x/Volumes/SHARED/trough/JamWiFi/JamWiFi/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/JamWiFi/JamWiFi/main.m
+o[1m/Volumes/SHARED/trough/JamWiFi/JamWiFi/main.m:43:24: [0m[0;1;35mwarning: [0m[1m
+o      'AuthorizationExecuteWithPrivileges' is deprecated: first deprecated in OS
+o      X 10.7 [-Wdeprecated-declarations][0m
+o            myStatus = AuthorizationExecuteWithPrivileges(myAuthorizatio...
+o[0;1;32m                       ^
+o[0mIn file included from /Volumes/SHARED/trough/JamWiFi/JamWiFi/main.m:1:
+oIn file included from /Volumes/SHARED/trough/JamWiFi/JamWiFi/JamWiFi-Prefix.pch:6:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:74:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLCredential.h:9:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Security.framework/Headers/Security.h:80:
+o[1m/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Security.framework/Headers/Authorization.h:435:10: [0m[0;1;30mnote: [0m
+o      'AuthorizationExecuteWithPrivileges' declared here[0m
+oOSStatus AuthorizationExecuteWithPrivileges(AuthorizationRef authorization,
+o[0;1;32m         ^
+o[0m1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Volumes/SHARED/trough/JamWiFi/JamWiFi/main.m180"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/main.o [1mJamWiFi/main.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler6c5e4526e4b2b841^967a4e26e4b2b841^-1630"[1m/Volumes/SHARED/trough/JamWiFi/JamWiFi/main.m:43:24: [0m[0;1;35mwarning: [0m[1m      'AuthorizationExecuteWithPrivileges' is deprecated: first deprecated in OS      X 10.7 [-Wdeprecated-declarations][0m            myStatus = AuthorizationExecuteWithPrivileges(myAuthorizatio...[0;1;32m                       ^[0mIn file included from /Volumes/SHARED/trough/JamWiFi/JamWiFi/main.m:1:In file included from /Volumes/SHARED/trough/JamWiFi/JamWiFi/JamWiFi-Prefix.pch:6:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:74:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLCredential.h:9:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Security.framework/Headers/Security.h:80:[1m/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Security.framework/Headers/Authorization.h:435:10: [0m[0;1;30mnote: [0m      'AuthorizationExecuteWithPrivileges' declared here[0mOSStatus AuthorizationExecuteWithPrivileges(AuthorizationRef authorization,[0;1;32m         ^[0m1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@81"'AuthorizationExecuteWithPrivileges' is deprecated: first deprecated in OS X 10.7-414376998#18446744073709551615#0#1(2@50"'AuthorizationExecuteWithPrivileges' declared here-414376998#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@183"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Security.framework/Headers/Authorization.h0000000000000000^434#9#434#9#22183#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@61"file://localhost/Volumes/SHARED/trough/JamWiFi/JamWiFi/main.m0000000000000000^42#23#42#23#1667#0#12"Deprecations--0#0#1#-19%DVTDocumentLocation4@61"file://localhost/Volumes/SHARED/trough/JamWiFi/JamWiFi/main.m0000000000000000^2819"[1mCompileC[0m build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/main.o [1mJamWiFi/main.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/JamWiFi    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-generated-files.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-own-target-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-all-target-headers.hmap -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-project-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources/x86_64 -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources -F/Volumes/SHARED/trough/JamWiFi/build/Release -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-dvsksepanryisuaqhhtfcmmemtpv/JamWiFi-Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/main.dia -c /Volumes/SHARED/trough/JamWiFi/JamWiFi/main.m -o /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/main.o36"2C2743B2-2FC0-4556-94A4-82E0CF966C82-
+b1D5BA155-C364-4B6D-9259-3EEEC7C68E36
+
+CCompileXIB /Volumes/SHARED/trough/JamWiFi/JamWiFi/en.lproj/MainMenu.xib
+s414376998.797487
+e414376998.848204
+r1
+xCompileXIB
+x/Volumes/SHARED/trough/JamWiFi/JamWiFi/en.lproj/MainMenu.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compiling /Volumes/SHARED/trough/JamWiFi/JamWiFi/en.lproj/MainMenu.xib56"[1mCompileXIB[0m [1mJamWiFi/en.lproj/MainMenu.xib[0m4835cc26e4b2b841^2924d926e4b2b841^---0#0#1#-19%DVTDocumentLocation2@76"file://localhost/Volumes/SHARED/trough/JamWiFi/JamWiFi/en.lproj/MainMenu.xib0000000000000000^515"[1mCompileXIB[0m [1mJamWiFi/en.lproj/MainMenu.xib[0m    cd /Volumes/SHARED/trough/JamWiFi    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 10.7 --output-format human-readable-text --compile /Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/Resources/en.lproj/MainMenu.nib /Volumes/SHARED/trough/JamWiFi/JamWiFi/en.lproj/MainMenu.xib36"3464AE23-EEC2-4F8C-AAF5-B1CB2B90C2AF-
+b1D5BA155-C364-4B6D-9259-3EEEC7C68E36
+
+CCopyStringsFile /Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/Resources/en.lproj/InfoPlist.strings JamWiFi/en.lproj/InfoPlist.strings
+s414376998.797603
+e414376998.802938
+r1
+xCopyStringsFile
+x/Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/Resources/en.lproj/InfoPlist.strings
+xJamWiFi/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy JamWiFi/en.lproj/InfoPlist.strings130"[1mCopyStringsFile[0m build/Release/JamWiFi.app/Contents/Resources/en.lproj/InfoPlist.strings JamWiFi/en.lproj/InfoPlist.strings2e3bcc26e4b2b841^ce8dcd26e4b2b841^---0#0#1#-19%DVTDocumentLocation2@81"file://localhost/Volumes/SHARED/trough/JamWiFi/JamWiFi/en.lproj/InfoPlist.strings0000000000000000^382"[1mCopyStringsFile[0m build/Release/JamWiFi.app/Contents/Resources/en.lproj/InfoPlist.strings JamWiFi/en.lproj/InfoPlist.strings    cd /Volumes/SHARED/trough/JamWiFi    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/Resources/en.lproj -- JamWiFi/en.lproj/InfoPlist.strings36"5C75DFDD-FB1C-4DAF-B2E1-E22C586E953D-
+b1D5BA155-C364-4B6D-9259-3EEEC7C68E36
+
+CCpResource JamWiFi/en.lproj/Credits.rtf build/Release/JamWiFi.app/Contents/Resources/en.lproj/Credits.rtf
+s414376998.797483
+e414376998.803495
+r1
+xCpResource
+xJamWiFi/en.lproj/Credits.rtf
+xbuild/Release/JamWiFi.app/Contents/Resources/en.lproj/Credits.rtf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Release/JamWiFi.app/Contents/Resources/en.lproj/Credits.rtf113"[1mCpResource[0m JamWiFi/en.lproj/Credits.rtf build/Release/JamWiFi.app/Contents/Resources/en.lproj/Credits.rtfde39cc26e4b2b841^5fb2cd26e4b2b841^---0#0#1#-19%DVTDocumentLocation2@112"file://localhost/Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/Resources/en.lproj/Credits.rtf00389865dcffdf42^535"[1mCpResource[0m JamWiFi/en.lproj/Credits.rtf build/Release/JamWiFi.app/Contents/Resources/en.lproj/Credits.rtf    cd /Volumes/SHARED/trough/JamWiFi    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Volumes/SHARED/trough/JamWiFi/JamWiFi/en.lproj/Credits.rtf /Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/Resources/en.lproj36"2F799797-C046-4A11-8C1D-5A0F03471D8E-
+b1D5BA155-C364-4B6D-9259-3EEEC7C68E36
+
+CCpResource JamWiFi/radio.icns build/Release/JamWiFi.app/Contents/Resources/radio.icns
+s414376998.797493
+e414376998.807572
+r1
+xCpResource
+xJamWiFi/radio.icns
+xbuild/Release/JamWiFi.app/Contents/Resources/radio.icns
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Release/JamWiFi.app/Contents/Resources/radio.icns93"[1mCpResource[0m JamWiFi/radio.icns build/Release/JamWiFi.app/Contents/Resources/radio.icns7a39cc26e4b2b841^7fbdce26e4b2b841^---0#0#1#-19%DVTDocumentLocation2@102"file://localhost/Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/Resources/radio.icns00389865dcffdf42^496"[1mCpResource[0m JamWiFi/radio.icns build/Release/JamWiFi.app/Contents/Resources/radio.icns    cd /Volumes/SHARED/trough/JamWiFi    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Volumes/SHARED/trough/JamWiFi/JamWiFi/radio.icns /Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/Resources36"26B9F835-E75F-42E8-803D-0835CA59F661-
+b1D5BA155-C364-4B6D-9259-3EEEC7C68E36
+
+CGenerateDSYMFile /Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app.dSYM /Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/MacOS/JamWiFi
+s414376998.765145
+e414376998.789478
+r1
+xGenerateDSYMFile
+x/Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app.dSYM
+x/Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/MacOS/JamWiFi
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Generate /Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app.dSYM112"[1mGenerateDSYMFile[0m [1mbuild/Release/JamWiFi.app.dSYM[0m build/Release/JamWiFi.app/Contents/MacOS/JamWiFiafebc326e4b2b841^8f1bca26e4b2b841^---0#0#1#-19%DVTDocumentLocation2@77"file://localhost/Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app.dSYM00389865dcffdf42^396"[1mGenerateDSYMFile[0m [1mbuild/Release/JamWiFi.app.dSYM[0m build/Release/JamWiFi.app/Contents/MacOS/JamWiFi    cd /Volumes/SHARED/trough/JamWiFi    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/MacOS/JamWiFi -o /Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app.dSYM36"780D8E15-6DF5-4599-9F9C-5DA4FF3FD731-
+b1D5BA155-C364-4B6D-9259-3EEEC7C68E36
+
+CLd /Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/MacOS/JamWiFi normal x86_64
+s414376998.707973
+e414376998.756805
+r1
+xLd
+x/Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/MacOS/JamWiFi
+xnormal
+xx86_64
+d/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/JamWiFi.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/crt1.10.6.o
+d/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/main.o
+d/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANAppDelegate.o
+d/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANBeaconFrame.o
+d/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANBeaconPart.o
+d/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANWiFiSniffer.o
+d/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANListView.o
+d/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANTrafficGatherer.o
+d/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANClient.o
+d/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/AN80211Packet.o
+d/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANInterface.o
+d/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/crc.o
+d/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/ANClientKiller.o
+d/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/MACParser.o
+d/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/CarbonAppProcess.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ServiceManagement.framework/ServiceManagement
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libpcap.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreWLAN.framework/CoreWLAN
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_macosx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Link /Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/MacOS/JamWiFi73"[1mLd[0m build/Release/JamWiFi.app/Contents/MacOS/JamWiFi normal x86_64c34ab526e4b2b841^6ebec126e4b2b841^---0#0#1#--983"[1mLd[0m build/Release/JamWiFi.app/Contents/MacOS/JamWiFi normal x86_64    cd /Volumes/SHARED/trough/JamWiFi    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Volumes/SHARED/trough/JamWiFi/build/Release -F/Volumes/SHARED/trough/JamWiFi/build/Release -filelist /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/JamWiFi.LinkFileList -mmacosx-version-min=10.7 -fobjc-arc -fobjc-link-runtime -framework Security -framework ServiceManagement -lpcap -framework CoreWLAN -framework Cocoa -Xlinker -dependency_info -Xlinker /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/Objects-normal/x86_64/JamWiFi_dependency_info.dat -o /Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/MacOS/JamWiFi36"5CCA61AD-EEBD-4FFB-927F-9210EB52BEC9-
+b1D5BA155-C364-4B6D-9259-3EEEC7C68E36
+
+CProcessInfoPlistFile /Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/Info.plist /Volumes/SHARED/trough/JamWiFi/JamWiFi/JamWiFi-Info.plist
+s414376997.530100
+e414376997.533697
+r1
+xProcessInfoPlistFile
+x/Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/Info.plist
+x/Volumes/SHARED/trough/JamWiFi/JamWiFi/JamWiFi-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Process /Volumes/SHARED/trough/JamWiFi/JamWiFi/JamWiFi-Info.plist109"[1mProcessInfoPlistFile[0m build/Release/JamWiFi.app/Contents/Info.plist [1mJamWiFi/JamWiFi-Info.plist[0m76c68725e4b2b841^5ea08825e4b2b841^---0#0#1#-19%DVTDocumentLocation2@73"file://localhost/Volumes/SHARED/trough/JamWiFi/JamWiFi/JamWiFi-Info.plist0000000000000000^439"[1mProcessInfoPlistFile[0m build/Release/JamWiFi.app/Contents/Info.plist [1mJamWiFi/JamWiFi-Info.plist[0m    cd /Volumes/SHARED/trough/JamWiFi    builtin-infoPlistUtility /Volumes/SHARED/trough/JamWiFi/JamWiFi/JamWiFi-Info.plist -genpkginfo /Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app/Contents/Info.plist36"8108E72C-783A-4DDD-B4C4-B45CE2036018-
+b1D5BA155-C364-4B6D-9259-3EEEC7C68E36
+
+CProcessPCH /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-dvsksepanryisuaqhhtfcmmemtpv/JamWiFi-Prefix.pch.pch JamWiFi/JamWiFi-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414376997.543116
+e414376998.262520
+r1
+xProcessPCH
+x/var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-dvsksepanryisuaqhhtfcmmemtpv/JamWiFi-Prefix.pch.pch
+xJamWiFi/JamWiFi-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/JamWiFi/JamWiFi/JamWiFi-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile JamWiFi/JamWiFi-Prefix.pch300"[1mProcessPCH[0m /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-dvsksepanryisuaqhhtfcmmemtpv/JamWiFi-Prefix.pch.pch JamWiFi/JamWiFi-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler60218b25e4b2b841^59324326e4b2b841^---0#0#1#-19%DVTDocumentLocation2@73"file://localhost/Volumes/SHARED/trough/JamWiFi/JamWiFi/JamWiFi-Prefix.pch0000000000000000^3013"[1mProcessPCH[0m /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-dvsksepanryisuaqhhtfcmmemtpv/JamWiFi-Prefix.pch.pch JamWiFi/JamWiFi-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/JamWiFi    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-generated-files.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-own-target-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-all-target-headers.hmap -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-project-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources/x86_64 -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources -F/Volumes/SHARED/trough/JamWiFi/build/Release --serialize-diagnostics /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-dvsksepanryisuaqhhtfcmmemtpv/JamWiFi-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-dvsksepanryisuaqhhtfcmmemtpv/JamWiFi-Prefix.pch.d -c /Volumes/SHARED/trough/JamWiFi/JamWiFi/JamWiFi-Prefix.pch -o /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-dvsksepanryisuaqhhtfcmmemtpv/JamWiFi-Prefix.pch.pch36"F01C3E19-5391-4648-A18A-0EDEC4330677-
+b1D5BA155-C364-4B6D-9259-3EEEC7C68E36
+
+CProcessPCH /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-gfciafvaknwfwvevqrmxxopqhhzo/JamWiFi-Prefix.pch.pch JamWiFi/JamWiFi-Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s414376997.544315
+e414376997.564831
+r1
+xProcessPCH
+x/var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-gfciafvaknwfwvevqrmxxopqhhzo/JamWiFi-Prefix.pch.pch
+xJamWiFi/JamWiFi-Prefix.pch
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/trough/JamWiFi/JamWiFi/JamWiFi-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile JamWiFi/JamWiFi-Prefix.pch290"[1mProcessPCH[0m /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-gfciafvaknwfwvevqrmxxopqhhzo/JamWiFi-Prefix.pch.pch JamWiFi/JamWiFi-Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler51668b25e4b2b841^b3989025e4b2b841^---0#0#1#-19%DVTDocumentLocation2@73"file://localhost/Volumes/SHARED/trough/JamWiFi/JamWiFi/JamWiFi-Prefix.pch0000000000000000^2789"[1mProcessPCH[0m /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-gfciafvaknwfwvevqrmxxopqhhzo/JamWiFi-Prefix.pch.pch JamWiFi/JamWiFi-Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/trough/JamWiFi    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c-header -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-generated-files.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-own-target-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-all-target-headers.hmap -iquote /Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/JamWiFi-project-headers.hmap -I/Volumes/SHARED/trough/JamWiFi/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources/x86_64 -I/Volumes/SHARED/trough/JamWiFi/build/JamWiFi.build/Release/JamWiFi.build/DerivedSources -F/Volumes/SHARED/trough/JamWiFi/build/Release --serialize-diagnostics /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-gfciafvaknwfwvevqrmxxopqhhzo/JamWiFi-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-gfciafvaknwfwvevqrmxxopqhhzo/JamWiFi-Prefix.pch.d -c /Volumes/SHARED/trough/JamWiFi/JamWiFi/JamWiFi-Prefix.pch -o /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/JamWiFi-Prefix-gfciafvaknwfwvevqrmxxopqhhzo/JamWiFi-Prefix.pch.pch36"FEF5AF47-12FB-4D47-AD64-ABE46C396FF7-
+b1D5BA155-C364-4B6D-9259-3EEEC7C68E36
+
+CTouch /Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app
+s414376998.856515
+e414376998.860953
+r1
+xTouch
+x/Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Touch /Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app39"[1mTouch[0m build/Release/JamWiFi.app404fdb26e4b2b841^ae67dc26e4b2b841^---0#0#1#--157"[1mTouch[0m build/Release/JamWiFi.app    cd /Volumes/SHARED/trough/JamWiFi    /usr/bin/touch -c /Volumes/SHARED/trough/JamWiFi/build/Release/JamWiFi.app36"F3F8700E-9E39-4B3E-854C-AFED41E2B038-
+b1D5BA155-C364-4B6D-9259-3EEEC7C68E36
+
